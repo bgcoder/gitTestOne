@@ -8,6 +8,8 @@ body{
     grid-template-areas:
     'header header header header header header'
     'left main main main main right'
+    'left main main main main right'
+    'left main main main main right'
     'footer footer footer footer footer footer';
 }
 .header{
