@@ -5,19 +5,30 @@ body{
 }
 .container{
     display: grid;
+    grid-gap: 15px;
 }
 .header{
-
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+aside{
+    background-color: white;
+    color: black;
+    width: 15%;
 }
 .left-side{
-
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 .primary-content{
-
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 .right-side{
-
+    grid-column-start: 5;
+    grid-column-end: 6;
 }
 .footer{
-    
+    grid-column-start: 1;
+    grid-column-end: 6;
 }
