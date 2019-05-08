@@ -1,4 +1,8 @@
 /* grid based styling */
+body{
+    background-color: black;
+    color: antiquewhite;
+}
 .container{
     display: grid;
 }
