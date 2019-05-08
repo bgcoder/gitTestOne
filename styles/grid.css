@@ -5,30 +5,27 @@ body{
 }
 .container{
     display: grid;
-    grid-gap: 15px;
+    grid-template-areas:
+    'header header header header header header'
+    'left main main main main right'
+    'footer footer footer footer footer footer';
 }
 .header{
-    grid-column-start: 1;
-    grid-column-end: 6;
+    grid-area: header;
 }
 aside{
     background-color: white;
     color: black;
-    width: 15%;
 }
 .left-side{
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-area: left;
 }
 .primary-content{
-    grid-column-start: 2;
-    grid-column-end: 5;
+    grid-area: main;
 }
 .right-side{
-    grid-column-start: 5;
-    grid-column-end: 6;
+    grid-area: right;
 }
 .footer{
-    grid-column-start: 1;
-    grid-column-end: 6;
+    grid-area: footer;
 }
