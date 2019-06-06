@@ -7,37 +7,26 @@ body{
     display: grid;
     grid-template-areas:
     'header-logo header-banner header-menu'
-    'left main main right'
+    'left-side primary-content right-side'
     'footer footer footer';
-    grid-template-rows: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 5fr 2fr;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-gap: 15px;
 }
-.header{
-    grid-area: header;
-}
+
 aside{
     background-color: white;
     color: black;
 }
-.left-side{
-    grid-area: left;
-}
-.primary-content{
-    grid-area: main;
-    min-height: 100%;
-}
-.right-side{
-    grid-area: right;
-}
-.footer{
-    grid-area: footer;
-}
-.header-logo {
-    grid-area: header-logo;
+.header-logo{
+
 }
 .header-banner {
-    grid-area: header-banner;
+    text-align: center;
 }
 .header-menu {
-    grid-area: header-menu;
+    text-align: right;
+}
+.primary-content{
+
 }
