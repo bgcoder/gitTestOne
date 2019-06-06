@@ -14,9 +14,13 @@ body{
     grid-gap: 15px;
 }
 
-aside{
-    background-color: white;
+
+.ad {
+    height:100px; 
+    margin: 10px; 
+    background-color: aqua;
     color: black;
+    padding: 5px;
 }
 .header-logo{
 
@@ -28,5 +32,5 @@ aside{
     text-align: right;
 }
 .primary-content{
-
+    padding: 5px;
 }
