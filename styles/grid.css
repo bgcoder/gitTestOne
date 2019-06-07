@@ -13,8 +13,6 @@ body{
     grid-template-rows: 1fr 6fr 1fr;
     grid-gap: 15px;
 }
-
-
 .ad {
     height:100px; 
     margin: 10px; 
@@ -23,7 +21,7 @@ body{
     padding: 5px;
 }
 .header-logo{
-
+    image-orientation: flip;
 }
 .header-banner {
     text-align: center;
@@ -33,4 +31,9 @@ body{
 }
 .primary-content{
     padding: 5px;
+}
+.footer{
+    width: 100%;
+    background-color: darkslategrey;
+    color: blanchedalmond;
 }
